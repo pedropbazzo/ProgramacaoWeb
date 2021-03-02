@@ -17,7 +17,7 @@ import br.pro.delfino.drogaria.domain.Estado;
 @ManagedBean
 @ViewScoped
 public class EstadoBean implements Serializable {
-	private Estado estado;
+	private Estado estado; 
 	private List<Estado> estados;
 
 	public Estado getEstado() {
